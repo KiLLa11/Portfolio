@@ -1,5 +1,5 @@
 {
-  "name": "dopefolio",
+  "name": "KiLLa11",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,6 @@
     "compress:css": "node-sass css/style.css css/style.css --output-style compressed",
     "build": "npm-run-all prefix:css compress:css"
   },
-  "author": "",
-  "license": "GPL-3.0",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "node-sass": "^6.0.1",
