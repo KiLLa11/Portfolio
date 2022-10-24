@@ -52,12 +52,12 @@ textarea {
   background-color: black; }
   .dark-mode .header__logo-sub {
     color: #fff; }
-  .dark-mode .header__link-wrapper a {
-    color: #fff; }
   .dark-mode .header__sm-menu {
     background-color: black; }
-    .dark-mode .header__sm-menu a {
-      color: #fff; }
+  .dark-mode .header__link {
+    color: #fff; }
+    .dark-mode .header__link:hover {
+      color: #84002a; }
 
 .dark-mode .home-hero {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg); }

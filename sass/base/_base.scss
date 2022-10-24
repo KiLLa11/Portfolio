@@ -68,15 +68,14 @@ textarea {
     &__logo-sub {
       color: #fff;
     }
-    &__link-wrapper {
-      a {
-        color: #fff;
-      }
-    }
     &__sm-menu {
       background-color: black;
-      a {
-        color: #fff;
+    }
+
+    &__link {
+      color: #fff;
+      &:hover {
+        color: $themeClrPrimary;
       }
     }
   }
