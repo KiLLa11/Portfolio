@@ -48,6 +48,67 @@ button {
 textarea {
   resize: none; }
 
+.dark-mode .header {
+  background-color: black; }
+  .dark-mode .header__logo-sub {
+    color: #fff; }
+  .dark-mode .header__link-wrapper a {
+    color: #fff; }
+  .dark-mode .header__sm-menu {
+    background-color: black; }
+    .dark-mode .header__sm-menu a {
+      color: #fff; }
+
+.dark-mode .home-hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg); }
+
+.dark-mode .about {
+  background-color: black; }
+  .dark-mode .about__content {
+    color: #fff; }
+    .dark-mode .about__content-title {
+      color: white; }
+    .dark-mode .about__content-details-para {
+      color: white; }
+
+.dark-mode .heading {
+  color: #fff; }
+
+.dark-mode .heading-sec__sub {
+  color: #9a9a9a; }
+
+.dark-mode .skills__skill {
+  color: #bcbcbc; }
+
+.dark-mode .projects {
+  background-color: #000; }
+  .dark-mode .projects__row {
+    color: #fff; }
+    .dark-mode .projects__row-desc {
+      color: grey; }
+
+.dark-mode .contact {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg); }
+  .dark-mode .contact__form-container {
+    background: #4e4e4e; }
+  .dark-mode .contact__form-label {
+    color: #e7e7e7; }
+
+.dark-mode .project-cs-hero {
+  color: #fff;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg); }
+
+.dark-mode .project-details {
+  background-color: #000; }
+  .dark-mode .project-details__content {
+    color: #fff; }
+    .dark-mode .project-details__content-title {
+      color: #fff; }
+  .dark-mode .project-details__desc-para {
+    color: #9a9a9a; }
+  .dark-mode .project-details__tools-used-item {
+    color: #bcbcbc; }
+
 .heading-primary {
   font-size: 6rem;
   text-transform: uppercase;
@@ -440,22 +501,6 @@ textarea {
     font-weight: 600;
     color: #777; }
 
-.project-details__links {
-  margin: 0 0; }
-  .project-details__links-btn {
-    margin-right: 2rem; }
-    @media only screen and (max-width: 37.5em) {
-      .project-details__links-btn {
-        margin-right: 0;
-        width: 70%;
-        margin-bottom: 2rem;
-        text-align: center; } }
-    .project-details__links-btn:last-child {
-      margin: 0; }
-      @media only screen and (max-width: 37.5em) {
-        .project-details__links-btn:last-child {
-          margin: 0; } }
-
 .header {
   position: fixed;
   width: 100%;
@@ -583,6 +628,9 @@ textarea {
     @media only screen and (max-width: 37.5em) {
       .main-footer__upper {
         display: block; } }
+  .main-footer__btn {
+    margin-top: 20px;
+    padding: 15px 35px; }
   .main-footer__row-1 {
     order: 2; }
     @media only screen and (max-width: 56.25em) {

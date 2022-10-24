@@ -61,3 +61,118 @@ button {
 textarea {
   resize: none;
 }
+
+.dark-mode {
+  .header {
+    background-color: black;
+    &__logo-sub {
+      color: #fff;
+    }
+    &__link-wrapper {
+      a {
+        color: #fff;
+      }
+    }
+    &__sm-menu {
+      background-color: black;
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  .home-hero {
+    background: linear-gradient(
+      to right,
+      rgba(black, 0.8),
+      rgba(black, 0.8)
+    ),
+    url(../../assets/svg/common-bg.svg);
+  }
+
+  .about {
+    background-color: black;
+    &__content {
+      color: #fff;
+      &-title {
+        color: white;
+      }
+      &-details-para {
+        color: white;
+      }
+    }
+  }
+
+  .heading {
+    color: #fff;
+  }
+
+  .heading-sec {
+    &__sub {
+      color: rgb(154, 154, 154);
+    }
+  }
+
+  .skills {
+    &__skill {
+      color: rgb(188, 188, 188);
+    }
+  }
+
+  .projects {
+    background-color: #000;
+    &__row {
+      color: #fff;
+      &-desc {
+        color: grey;
+      }
+    }
+  }
+
+  .contact {
+    background: linear-gradient(
+      to right,
+      rgba(black, 0.8),
+      rgba(black, 0.8)
+    ),
+    url(../../assets/svg/common-bg.svg);
+    &__form-container {
+      background: rgba(rgb(78, 78, 78), 2);
+    }
+    &__form-label {
+      color: rgb(231, 231, 231);
+    }
+  }
+
+  .project-cs-hero {
+    color: #fff;
+    background: linear-gradient(
+        to right,
+        rgba(black, 0.8),
+        rgba(black, 0.8)
+      ),
+      url(../../assets/svg/common-bg.svg);
+  }
+  
+  .project-details {
+    background-color: #000;
+    &__content {
+      color: #fff;
+      &-title {
+        color: #fff;
+      }
+    }
+
+    &__desc {
+      &-para {
+        color: rgb(154, 154, 154);
+      }
+    }
+    
+    &__tools-used {
+      &-item {
+        color: rgb(188, 188, 188);
+      }
+    }
+  }
+}
